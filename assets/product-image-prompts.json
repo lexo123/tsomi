@@ -1,0 +1,222 @@
+[
+  {
+    "id": "shoti",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: traditional Georgian shotis puri elongated boat/crescent bread with pointed ends and golden blistered crust (not baguette).\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food clearly in frame with 12% negative margins.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/shoti-320.webp",
+      "public/images/products/shoti-640.webp",
+      "public/images/products/shoti-1024.webp"
+    ]
+  },
+  {
+    "id": "grey-bread",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: rustic brown wheat/rye oval loaf, one cut slice shows grey-brown crumb.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food clearly in frame with 12% negative margins.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/grey-bread-320.webp",
+      "public/images/products/grey-bread-640.webp",
+      "public/images/products/grey-bread-1024.webp"
+    ]
+  },
+  {
+    "id": "bun",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: plain small rounded golden sweet bun without frosting.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food clearly in frame with 12% negative margins.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/bun-320.webp",
+      "public/images/products/bun-640.webp",
+      "public/images/products/bun-1024.webp"
+    ]
+  },
+  {
+    "id": "raisin-bun",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: rounded sweet bun with clearly visible raisins, small torn area reveals raisins.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food clearly in frame with 12% negative margins.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/raisin-bun-320.webp",
+      "public/images/products/raisin-bun-640.webp",
+      "public/images/products/raisin-bun-1024.webp"
+    ]
+  },
+  {
+    "id": "chocolate-bun",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: sweet bun broken slightly to reveal dark chocolate filling, no dairy toppings.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/chocolate-bun-320.webp",
+      "public/images/products/chocolate-bun-640.webp",
+      "public/images/products/chocolate-bun-1024.webp"
+    ]
+  },
+  {
+    "id": "cherry-bun",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: sweet bun with small opening showing glossy deep-red cherry jam.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/cherry-bun-320.webp",
+      "public/images/products/cherry-bun-640.webp",
+      "public/images/products/cherry-bun-1024.webp"
+    ]
+  },
+  {
+    "id": "plum-bun",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: sweet bun with small opening showing dark-purple plum jam.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/plum-bun-320.webp",
+      "public/images/products/plum-bun-640.webp",
+      "public/images/products/plum-bun-1024.webp"
+    ]
+  },
+  {
+    "id": "choux",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: one cream puff/shu filled with pale plant-based cream, lightly dusted powdered sugar.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/choux-320.webp",
+      "public/images/products/choux-640.webp",
+      "public/images/products/choux-1024.webp"
+    ]
+  },
+  {
+    "id": "eclair",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: elongated choux eclair with glossy dark chocolate glaze, one cut end reveals pastry cream.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/eclair-320.webp",
+      "public/images/products/eclair-640.webp",
+      "public/images/products/eclair-1024.webp"
+    ]
+  },
+  {
+    "id": "white-eclair",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: elongated eclair with white chocolate glaze, clearly different from dark eclair.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/white-eclair-320.webp",
+      "public/images/products/white-eclair-640.webp",
+      "public/images/products/white-eclair-1024.webp"
+    ]
+  },
+  {
+    "id": "medok",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: small round multi-layer honey cake, caramel golden thin layers and pale plant cream, one wedge separated to show layers; both whole and slice in same photo.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/medok-320.webp",
+      "public/images/products/medok-640.webp",
+      "public/images/products/medok-1024.webp"
+    ]
+  },
+  {
+    "id": "ideal",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: Georgian Ideali walnut cake, chocolate frosting, alternating walnut cake and creamy layers, one slice beside remaining cake; both whole and slice.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/ideal-320.webp",
+      "public/images/products/ideal-640.webp",
+      "public/images/products/ideal-1024.webp"
+    ]
+  },
+  {
+    "id": "imeruli-lobiani",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: round flat Georgian bean-filled bread, baked golden exterior, one wedge pulled apart shows brown bean filling; no cheese.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/imeruli-lobiani-320.webp",
+      "public/images/products/imeruli-lobiani-640.webp",
+      "public/images/products/imeruli-lobiani-1024.webp"
+    ]
+  },
+  {
+    "id": "imeruli-khachapuri",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: round CLOSED Imeruli cheese-filled flatbread, golden top, one wedge shows melted cheese; no extra cheese coating atop.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/imeruli-khachapuri-320.webp",
+      "public/images/products/imeruli-khachapuri-640.webp",
+      "public/images/products/imeruli-khachapuri-1024.webp"
+    ]
+  },
+  {
+    "id": "kubdari",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: round CLOSED Svan meat-filled bread, golden crust, cut wedge shows finely chopped meat and onion filling, no cheese.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/kubdari-320.webp",
+      "public/images/products/kubdari-640.webp",
+      "public/images/products/kubdari-1024.webp"
+    ]
+  },
+  {
+    "id": "chebureki",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: single large crisp deep-fried half-moon meat turnover, blistered crust, small cut end shows minced meat.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/chebureki-320.webp",
+      "public/images/products/chebureki-640.webp",
+      "public/images/products/chebureki-1024.webp"
+    ]
+  },
+  {
+    "id": "megruli-khachapuri",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: round Georgian cheese bread with generous molten browned cheese crust on TOP, one wedge shows filling; distinguish from Imeruli.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/megruli-khachapuri-320.webp",
+      "public/images/products/megruli-khachapuri-640.webp",
+      "public/images/products/megruli-khachapuri-1024.webp"
+    ]
+  },
+  {
+    "id": "potato-pie",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: oblong OVEN-BAKED potato pirozhki pie, golden smooth crust, one open end shows mashed potato onion filling.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/potato-pie-320.webp",
+      "public/images/products/potato-pie-640.webp",
+      "public/images/products/potato-pie-1024.webp"
+    ]
+  },
+  {
+    "id": "fried-potato-pie",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: oblong DEEP-FRIED potato pirozhki pie, darker golden bubbly crispy crust, cut end shows mashed potato; distinguish baked.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/fried-potato-pie-320.webp",
+      "public/images/products/fried-potato-pie-640.webp",
+      "public/images/products/fried-potato-pie-1024.webp"
+    ]
+  },
+  {
+    "id": "puff-khachapuri",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: square flaky laminated puff pastry cheese pie, clearly tall airy golden crisp layers, small cut corner showing cheese.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/puff-khachapuri-320.webp",
+      "public/images/products/puff-khachapuri-640.webp",
+      "public/images/products/puff-khachapuri-1024.webp"
+    ]
+  },
+  {
+    "id": "semi-puff-khachapuri",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: square golden semi-laminated yeasted cheese pastry, thicker soft fluffy inner bread and fewer thin flaky exterior layers than puff, cut side showing cheese.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/semi-puff-khachapuri-320.webp",
+      "public/images/products/semi-puff-khachapuri-640.webp",
+      "public/images/products/semi-puff-khachapuri-1024.webp"
+    ]
+  },
+  {
+    "id": "semi-puff-lobiani",
+    "generator": "imagegen (built-in)",
+    "prompt": "Use case: product-mockup\nAsset type: Georgian bakery catalog product photograph\nSubject: square golden semi-laminated yeasted BEAN pastry, cut side showing brown bean filling, no cheese.\nStyle: photorealistic standalone square product photo, 1024x1024.\nScene: one main Georgian bakery food on dark rustic walnut tabletop, small cream ceramic plate or board.\nLighting: soft natural window light, warm golden tones, rich tactile crust.\nComposition: 3/4 angle, entire food and plate clearly within central 65–70% of frame, generous negative margins for a light 4:3 crop.\nConstraints: no people, no lettering, logos or watermark, no collage or UI.",
+    "web_files": [
+      "public/images/products/semi-puff-lobiani-320.webp",
+      "public/images/products/semi-puff-lobiani-640.webp",
+      "public/images/products/semi-puff-lobiani-1024.webp"
+    ]
+  }
+]
