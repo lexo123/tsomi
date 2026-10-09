@@ -1,16 +1,19 @@
 'use client';
 import { useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
-import { Camera, Plus, X, Leaf } from 'lucide-react';
+import { Camera, Plus, X, Leaf, Search } from 'lucide-react';
 import { catalogProducts, formatPrice, type CatalogProduct, type ProductVariant } from '../lib/products';
+import { matchesProductName } from '../lib/catalog-search';
 
 export default function Catalog({cart, onAdd, disabled}: {cart:Partial<Record<string,number>>;onAdd:(id:string)=>void;disabled:boolean}) {
   const [category,setCategory]=useState('ყველა');
   const [fastingOnly,setFastingOnly]=useState(false);
+  const [query,setQuery]=useState('');
+  const searchInput=useRef<HTMLInputElement>(null);
   const [selected,setSelected]=useState<Record<string,string>>({});
   const [detail,setDetail]=useState<CatalogProduct|null>(null);
   const dialog=useRef<HTMLDialogElement>(null);
-  const visible=catalogProducts.filter(p=>(category==='ყველა'||p.category===category)&&(!fastingOnly||p.isFasting));
+  const visible=catalogProducts.filter(p=>(category==='ყველა'||p.category===category)&&(!fastingOnly||p.isFasting)&&matchesProductName(p,query));
   function variant(product:CatalogProduct):ProductVariant { return product.variants.find(v=>v.id===selected[product.id])||product.variants[0]; }
   function choose(product:CatalogProduct,id:string){setSelected(current=>({...current,[product.id]:id}));}
   function open(product:CatalogProduct){flushSync(()=>setDetail(product));dialog.current?.showModal();if(dialog.current)dialog.current.scrollTop=0;}
@@ -19,13 +22,14 @@ export default function Catalog({cart, onAdd, disabled}: {cart:Partial<Record<st
   const active=detail?variant(detail):null;
   return <section id="products" className="catalog wrap" aria-labelledby="catalog-title">
     <div className="section-heading"><div><p className="eyebrow">ჩვენი ასორტიმენტი</p><h2 id="catalog-title">რას მიირთმევთ დღეს?</h2></div><p>შეკვეთა გააკეთეთ<br/>მინიმუმ 1 საათით ადრე.</p></div>
+    <div className="catalog-search" role="search" aria-label="პროდუქტების ძიება"><label className="sr-only" htmlFor="catalog-query">პროდუქტის სახელით ძიება</label><Search size={20} aria-hidden="true"/><input ref={searchInput} id="catalog-query" type="search" value={query} onChange={event=>setQuery(event.target.value)} placeholder="მოძებნეთ პროდუქტი, მაგალითად: ხაჭაპური" autoComplete="off" enterKeyHint="search" aria-controls="catalog-results"/>{query&&<button type="button" aria-label="ძიების გასუფთავება" onClick={()=>{setQuery('');searchInput.current?.focus();}}><X size={20}/></button>}</div>
     <div className="category-filters" role="group" aria-label="პროდუქტის კატეგორია">{['ყველა','პური','კერძები','ტკბილეული'].map(value=><button key={value} type="button" aria-pressed={category===value} className={category===value?'active':''} onClick={()=>setCategory(value)}>{value}</button>)}<span className="filter-count" role="status">{visible.length} პროდუქტი</span></div>
     <label className="fasting-filter"><input type="checkbox" checked={fastingOnly} onChange={e=>setFastingOnly(e.target.checked)}/><Leaf size={18}/><span>მხოლოდ სამარხვო</span></label>
-    <div className="product-grid">{visible.map(product=>{const v=variant(product);return <article className="product" key={product.id}>
+    <div id="catalog-results" className="product-grid">{visible.map(product=>{const v=variant(product);return <article className="product" key={product.id}>
       <button type="button" className={`product-image product-image-button tone-${catalogProducts.indexOf(product)%3}`} onClick={()=>open(product)} aria-label={`${product.name} — ფოტოს გადიდება და დეტალები`}>{product.image?<img src={product.image} srcSet={product.imageSrcSet} sizes="(max-width: 450px) calc(100vw - 36px), (max-width: 760px) calc((100vw - 52px) / 2), (max-width: 1000px) calc((100vw - 88px) / 3), (max-width: 1296px) calc((100vw - 148px) / 3), 383px" alt={product.name} loading="lazy" decoding="async" width={640} height={640}/>:<><span className="product-number" aria-hidden="true">{String(catalogProducts.indexOf(product)+1).padStart(2,'0')}</span><span className="photo-placeholder"><Camera size={26} strokeWidth={1}/><span>ფოტო მალე</span><span>ზომა და ინგრედიენტები</span></span></>}<span className="category-label">{product.category}</span>{product.isFasting&&<span className="fasting-badge"><Leaf size={13}/>სამარხვო</span>}</button>
       <div className="product-content"><h3>{product.name}</h3><p className="product-description">{product.description}</p>{options(product,'ბარათი')}<p className="product-meta">{v.size} · დაახლოებით {v.weightGrams} გ</p><div className="product-bottom"><span className="product-price">{formatPrice(v.priceTetri)}</span>{addButton(product)}</div></div>
     </article>;})}</div>
-    {!visible.length&&<p className="catalog-empty" role="status">ამ კატეგორიაში სამარხვო პროდუქტი არ არის. აირჩიეთ სხვა კატეგორია ან მოხსენით მონიშვნა.</p>}
+    {!visible.length&&<div className="catalog-empty" role="status"><p>არჩეული პირობებით პროდუქტი ვერ მოიძებნა.</p><p>სცადეთ სხვა სახელი ან შეცვალეთ ფილტრები.</p><button type="button" className="button contact-button" onClick={()=>{setQuery('');setCategory('ყველა');setFastingOnly(false);searchInput.current?.focus();}}>ძიებისა და ფილტრების გასუფთავება</button></div>}
     <p className="catalog-note">ფოტოზე დაჭერით იხილეთ ზომა და ინგრედიენტები. ფასები მოცემულია ლარში.</p>
     <dialog ref={dialog} className="product-dialog" aria-labelledby="product-detail-title" onClick={event=>{if(event.target===event.currentTarget){const box=event.currentTarget.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)dialog.current?.close();}}}>
       <div className="dialog-toolbar"><button type="button" className="dialog-close" aria-label="დახურვა" onClick={()=>dialog.current?.close()}><X size={24}/></button></div>
